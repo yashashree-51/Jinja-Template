@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <link rel="stylesheet" href="ninth_page.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header style="display: flex;justify-content: space-between;align-items: center;">
+            <div class="logo">
+                <img src="./images/logo.png" alt="Logo">
+            </div>
+            <div class="report-title">
+                <h1>AERIAL THERMOGRAPHIC INSPECTION REPORT</h1>
+                <h2>99.5 MW | Malkapur, Maharashtra | 21/05/2024 - 23/05/2024</h2>
+            </div>
+        </header>
+
+        <body>
+            <div class="table-container">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="skyblue">TYPE OF ABNORMALITY</th>
+                            <th class="skyblue">DESCRIPTION</th>
+                            <th class="skyblue">CoA</th>
+                            <th class="skyblue">ACTION REQUIRED</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Open Circuit</td>
+                            <td>Part of the module surface is homogeneously heated up and heat dissipation by the bypass
+                                diode, which is operating, is visible. Temperature difference of the glass on top of the
+                                junction box containing the operating bypass diode differs with construction. (or
+                                failure of a bypass diode) Loss of contact at a cell connection might lead to a serial
+                                arc visible on the module backside surface</td>
+                            <td>3</td>
+                            <td>Check the module junction box or cell connectors</td>
+                        </tr>
+                        <tr>
+                            <td>Short Circuit</td>
+                            <td>At one or more substrings, easily mistaken for cell breakage or cell defects, Potential
+                                Induced Degradation (PID) or mismatch. (or failure of a bypass diode)</td>
+                            <td>2</td>
+                            <td>Check module and bypass diodes for proper function under reverse biasing</td>
+                        </tr>
+                        <tr>
+                            <td>Panel Failure (module)</td>
+                            <td>The module surface is homogeneously heated than other panels</td>
+                            <td>3</td>
+                            <td>Check module, state of operation of inverter, and condition of cabling, connectors, and
+                                fuses.</td>
+                        </tr>
+                        <tr>
+                            <td>Bypass Diode Failure</td>
+                            <td>Temperature difference increases with load caused by increased contact resistance within
+                                the junction box. Alternatively it could be caused by low resistive bypass diodes that
+                                carry a significant current although they should be biased in reverse direction</td>
+                            <td>4</td>
+                            <td>Personal review by a PV expert or thermographic level 2 or equivalent is recommended. Be
+                                aware of high voltages</td>
+                        </tr>
+                        <tr>
+                            <td>Panel Failure (table)</td>
+                            <td>The module surface is homogeneously heated. Temperature difference of the junction box
+                                is similar to operational state</td>
+                            <td>3</td>
+                            <td>Check module, state of operation of inverter, and condition of cabling, connectors, and
+                                fuses.</td>
+                        </tr>
+                        <tr>
+                            <td>Cell Failure, Cell Chipping and De-Lamination</td>
+                            <td>Difference in temperature increases with load, cell efficiency and number of cells in a
+                                substring.</td>
+                            <td>2</td>
+                            <td>Personal review by a PV expert or thermography level 2 or equivalent is recommended.
+                                Check for micro shading or severe soiling</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </body>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-left">DATASEE.AI Inc.</div>
+                <div class="footer-right">
+                    <h1 class="footer-text">ACQUIRE | DECIPHER | DELIVER</h1>
+                    <h2 class="footer-text">Page 9 of 11</h2>
+                </div>
+            </div>
+        </footer>
+</html>

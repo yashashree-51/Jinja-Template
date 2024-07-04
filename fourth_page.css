@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.report-title {
+    flex-grow: 1;
+    text-align: right;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.report-title h1, .report-title h2 {
+    margin: 0;
+}
+
+.report-title h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.report-title h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    margin: 0 -5px; /* Negative margin to counteract the padding */
+}
+
+.image-row img {
+    width: 33.33%; /* Adjust width as needed */
+    height: auto;
+    margin: 0; /* Remove spacing between images */
+    max-width: 100%; /* Ensure images don't exceed their container */
+}
+h2 {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+thead {
+    background-color: #add8e6;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+footer {
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-left: 140px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 120px;
+}
+
+.footer-text {
+    font-size: 16px;
+    color: #333;
+}

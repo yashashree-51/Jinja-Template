@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 20px; 
+   
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    margin-bottom: 20px; 
+}
+
+.report-title {
+    flex-grow: 1;
+    text-align: right;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.report-title h1, .report-title h2 {
+    margin: 0;
+}
+
+.report-title h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.report-title h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #cce5ff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    text-align: center;
+    padding: 4px;
+    border: 1px solid #000;
+}
+
+th {
+    background-color: #cce5ff;
+    font-weight: bold;
+}
+
+.green-bg {
+    background-color: #b4e197;
+}
+
+.content {
+    flex: 1; /* This makes the main content take up the available space */
+}
+
+footer {
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-text {
+    font-size: 16px;
+    color: #333;
+}
