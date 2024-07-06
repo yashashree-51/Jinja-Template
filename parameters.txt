@@ -1,0 +1,47 @@
+template1 dict{
+    "Location":AES 15MW Charanka
+    "Size of Plant":15 15MW
+    "Inspection Date":12-07-2023
+}
+img = img_path
+
+
+
+template4 dict{
+     "Image Resolution": RGB 4864 x 3648 Thermal 640 x 512
+     "Irradance":800 W / m2 to 1100 W / m2 
+     "Ambient Air Temperature":28 to 38 Deg C Apprx
+     "wind speed":2 m/s to 6 m/s
+
+}
+
+
+template5 dict{
+    "cruise speed": 3.5m/s
+    "front overlap":RGB 85% Thermal 80%
+    "side overlap":RGB 75% Thermal 60%
+    "Flight Altitude":RGB 60m Thermal 40m
+}
+
+template6 dict {
+    "Hotspot": {
+        "Junction Box Issues": {"Number of Defected Modules": 0, "Defect Composition": "0.00%"},
+        "Multi-cell Hotspots": {"Number of Defected Modules": 42, "Defect Composition": "11.93%"},
+        "Dirt/Vegetation": {"Number of Defected Modules": 7, "Defect Composition": "1.99%"},
+        "Single cell Hotspot": {"Number of Defected Modules": 51, "Defect Composition": "14.49%"}
+    },
+    "Short Circuit": {"Number of Defected Modules": 7, "Defect Composition": "1.99%"},
+    "Diode Issue": {"Number of Defected Modules": 191, "Defect Composition": "54.26%"},
+    "Panel Failure": {
+        "Module": {"Number of Defected Modules": 4, "Defect Composition": "1.14%"},
+        "Table": {"Number of Defected Modules": 4, "Defect Composition": "1.14%"},
+        "String": {"Number of Defected Modules": 2, "Defect Composition": "0.57%"}
+    },
+    "PID Effected Modules": {"Number of Defected Modules": 8, "Defect Composition": "2.27%"},
+    "Missing Module": {"Number of Defected Modules": 35, "Defect Composition": "9.94%"},
+    "Broken Glass": {"Number of Defected Modules": 1, "Defect Composition": "0.28%"},
+    "Delamination": {"Number of Defected Modules": 0, "Defect Composition": "0.00%"},
+    "Total Defected Modules": {"Number of Defected Modules": 352, "Defect Composition": "100.00%"}
+}
+
+

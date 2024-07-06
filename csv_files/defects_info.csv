@@ -1,0 +1,15 @@
+Defect Type,Subtype,Number of Defected Modules,Defect Composition
+Hotspot,Junction Box Issues,0,0.00%
+Hotspot,Multi-cell Hotspots,42,11.93%
+Hotspot,Dirt/Vegetation,7,1.99%
+Hotspot,Single cell Hotspot,51,14.49%
+Short Circuit,,7,1.99%
+Diode Issue,,191,54.26%
+Panel Failure,Module,4,1.14%
+Panel Failure,Table,4,1.14%
+Panel Failure,String,2,0.57%
+PID Effected Modules,,8,2.27%
+Missing Module,,35,9.94%
+Broken Glass,,1,0.28%
+Delamination,,0,0.00%
+Total Defected Modules,,352,100.00%
