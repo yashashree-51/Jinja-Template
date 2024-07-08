@@ -17,7 +17,7 @@
             </div>
             <div class="report-title">
                 <h1>AERIAL THERMOGRAPHIC INSPECTION REPORT</h1>
-                <h2>99.5 MW | Malkapur, Maharashtra | 21/05/2024 - 23/05/2024</h2>
+                <h2>{{size of plant}}|{{location}} | {{Inspection date}}</h2>
             </div>
         </header>
         <title>Data Acquisition Summary</title>
@@ -35,9 +35,9 @@
                         <th>Plant Size (in MWp)</th>
                     </tr>
                     <tr>
-                        <td>AES 15MW Charanka, Gujarat</td>
-                        <td>84</td>
-                        <td>15 MW</td>
+                        <td>{{location}}</td>
+                        <td>{{plant area}}</td>
+                        <td>{{plant size}}</td>
                     </tr>
                 </table>
             </section>
@@ -51,8 +51,8 @@
                         <th>Payload</th>
                     </tr>
                     <tr>
-                        <td>DJI Mavic 2 Enterprise Advance</td>
-                        <td>Standard Smart Controller</td>
+                        <td>{{UAV / Drone Type}}</td>
+                        <td>{{Controller used}}</td>
                         <td>Radiometric IR</td>
                     </tr>
                 </table>
@@ -63,34 +63,30 @@
                 <table>
                     <tr>
                         <th>Dates of Data Acquisition</th>
-                        <th>{{Cruise Speed}}</th> <!--in this cruise speed, front and side overlap,flight altitude-->
-                        <th>{{Front Overlap}}</th>
-                        <th>{{Side Overlap}}</th>
+                        <th>Cruise Speed</th> <!--in this cruise speed, front and side overlap,flight altitude-->
+                        <th>Front Overlap</th>
+                        <th>Side Overlap</th>
                         <th>Course Angle</th>
-                        <th>{{Flight Altitude}}</th>
+                        <th>Flight Altitude</th>
                         <th>Payload Inclination Angle</th>
                         <th>Image Resolution</th>
                     </tr>
                     <tr>
-                        <td>15/05/2024</td>
-                        <td>3.5M/s</td>
+                        <td>{{dates of data acquisition}}</td>
+                        <td>{{cruise speed}}</td>
                         <td>
-                            RGB 85%<br>
-                            Thermal 80%
+                            {{front overlap}}
                         </td>
                         <td>
-                            RGB 75%<br>
-                            Thermal 60%
+                            {{side overlap}}
                         </td>
                         <td>90°</td>
                         <td>
-                            RGB 65m<br>
-                            Thermal 35m
+                            {{flight Altitude}}
                         </td>
                         <td>90°</td>
                         <td>
-                            RGB 4864x3648<br>
-                            Thermal 640x512
+                            {{image Resolution}}
                         </td>
                     </tr>
                 </table>
@@ -100,23 +96,23 @@
                 <table>
                     <tr>
                         <th class="green-bg">Acquisition Date</th>
-                        <td>15/05/2024</td>
+                        <td>{{acquisition date}}</td>
                     </tr>
                     <tr>
-                        <th>{{Area Covered}}</th>  <!--this also have to change-->
-                        <td>84 Acres</td>
+                        <th>Area Covered</th>  <!--this also have to change-->
+                        <td>{{area Covered}}</td>
                     </tr>
                     <tr>
                         <th>Irradiation</th>
-                        <td>800 W / m2 to 1100 W / m2</td>
+                        <td>{{Irradiation}}</td>
                     </tr>
                     <tr>
                         <th>Wind Speed</th>
-                        <td>2 m/s - 6 m/s</td>
+                        <td>{{Wind speed}}</td>
                     </tr>
                     <tr>
                         <th>Acquisition Time</th>
-                        <td>10 am - 4 pm</td>
+                        <td>{{Acquisition time}}</td>
                     </tr>
                     <tr>
                         <th>Weather</th>
@@ -124,11 +120,11 @@
                     </tr>
                     <tr>
                         <th>Ambient Temperature</th>
-                        <td>28-38°C appx.</td>
+                        <td>{{Ambient Temperature}}</td>
                     </tr>
                     <tr>
                         <th>Plant Size Covered (approx.)</th>
-                        <td>15 MW</td>
+                        <td>{{plant size coveres}}</td>
                     </tr>
                 </table>
             </section>

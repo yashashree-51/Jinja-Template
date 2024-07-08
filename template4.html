@@ -17,7 +17,7 @@
             </div>
             <div class="report-title">
                 <h1>AERIAL THERMOGRAPHIC INSPECTION REPORT</h1>
-                <h2>99.5 MW | Malkapur, Maharashtra | 21/05/2024 - 23/05/2024</h2>
+                <h2>{{size of plant}}| {{location}} | {{inspection date}}</h2>
             </div>
         </header>
 
@@ -32,7 +32,7 @@
         <table>
             <thead>
                 <tr>
-                    <th>{{Image Resolution}}</th> <!--this param have to change-->
+                    <th>Image Resolution</th> <!--this param have to change-->
                     <th>Frame Rate</th>
                     <th>Radiometry Capability</th>
                     <th>Flight Speed</th>
@@ -42,7 +42,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>RGB 4864 x 3648 Thermal 640 x 512</td>
+                    <td>{{image Resolution}}</td>
                     <td>30 Hz (Recommended)</td>
                     <td>Yes (Accuracy Error &lt; ±2K)</td>
                     <td>&lt; 2 m/s</td>
@@ -56,18 +56,18 @@
         <table>
             <thead>
                 <tr>
-                    <th>{{Irradiance}}</th>  <!--this param have to change-->
-                    <th>{{Wind Speed}}</th>
-                    <th>{{Ambient Air Temperature}}</th> <!--this have to change-->
+                    <th>Irradiance</th>  <!--this param have to change-->
+                    <th>Wind Speed</th> <!--this param have to change-->
+                    <th>Ambient Air Temperature</th> <!--this have to change-->
                     <th>Cloud Coverage</th>
                     <th>Soiling</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>800 W / m2 to 1100 W / m2</td>
-                    <td>2 m/s to 6 m/s</td>
-                    <td>28 to 38 Deg C Approx</td>
+                    <td>{{Irradiance}}</td>
+                    <td>{{Wind Speed}}</td>
+                    <td>{{Ambient Air Temperature}}</td>
                     <td>Maximum 2 Okta</td>
                     <td>No or Low, Panel Cleaning recommended</td>
                 </tr>
