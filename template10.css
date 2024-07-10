@@ -8,8 +8,7 @@ body {
 }
 
 .container {
-    width: 80%;
-    margin: 20px auto;
+    margin: 7px;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -47,13 +46,13 @@ header {
 }
 
 .report-title h1 {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 .report-title h2 {
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 12px;
+    font-weight: 500;
 }
 table {
     width: 100%;
@@ -97,31 +96,29 @@ td.highlighted {
     font-weight: bold;
     vertical-align: top;
 }
-footer {
-    padding: 10px 20px;
-    text-align: center;
-    width: 100%;
+
+
+td.border-bottom {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px; 
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-left {
-    font-size: 16px;
-    color: #333;
-    font-weight: bold;
-}
-
-.footer-right {
+.grid-item-cst {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    padding-bottom: 10px; 
 }
 
-.footer-text {
-    font-size: 16px;
-    color: #333;
+.grid-item-2 {
+    margin-bottom: 10px; 
+}
+
+.contline
+{
+    background-color: #000;
+    height: 1px;
+    width: 214px;
+    position: absolute;
+    top: 265px;
+    right: 151px;
 }
