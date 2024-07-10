@@ -4,12 +4,10 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 .container {
-    width: 80%;
-    margin: 20px auto;
+    margin: 7px;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -47,17 +45,16 @@ header {
 }
 
 .report-title h1 {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 .report-title h2 {
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 table {
-    width: 50%;
     border-collapse: collapse;
     margin-bottom: 40px;
 }
@@ -71,11 +68,6 @@ th, td {
 
 th {
     background-color: #add8e6;
-}
-
-td[colspan="3"] {
-    background-color: #add8e6;
-    font-weight: bold;
 }
 
 td:first-child {

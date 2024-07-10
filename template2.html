@@ -1,65 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Report</title>
-    <link rel="stylesheet" href="template2.css">
-</head>
+    <link rel="stylesheet" href="template2.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
+      <header
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        " >
+        <div class="logo">
+          <img src="./images/logo.png" alt="Logo" />
+        </div>
+        <div class="report-title">
+          <h1>AERIAL THERMOGRAPHIC INSPECTION REPORT</h1>
+          <h2>{{size of plant}}|{{location}}| {{Inspection date}}</h2>
+        </div>
+      </header>
 
-        <header style="display: flex;justify-content: space-between;align-items: center;">
-            <div class="logo">
-                <img src="./images/logo.png" alt="Logo">
-            </div>
-            <div class="report-title">
-                <h1>AERIAL THERMOGRAPHIC INSPECTION REPORT</h1>
-                <h2>{{size of plant}}|{{location}}| {{Inspection date}}</h2>
-            </div>
-        </header>
-
-        <section class="index-section">
-            <h2>INDEX</h2>
-            <ul class="index-list">
-                <li>OBJECTIVE OF IR INSPECTION</li>
-                <li>IEC STANDARDS & GUIDELINES – A SNAPSHOT
-                    <ul>
-                        <li>Equipment & Payload requirements</li>
-                        <li>Ambient conditions</li>
-                    </ul>
-                </li>
-                <li>DATA ACQUISITION SUMMARY
-                    <ul>
-                        <li>Plant info</li>
-                        <li>Equipment type</li>
-                        <li>Acquisition details</li>
-                        <li>Data quality checks</li>
-                    </ul>
-                </li>
-                <li>RESULTS & INFERENCES
-                    <ul>
-                        <li>Quick Summary</li>
-                        <li>Types of Defects Identified in this plant & corresponding Images</li>
-                    </ul>
-                </li>
+      <section class="index-section">
+        <h2>INDEX</h2>
+        <ul class="index-list">
+          <li>OBJECTIVE OF IR INSPECTION</li>
+          <li>
+            IEC STANDARDS & GUIDELINES – A SNAPSHOT
+            <ul>
+              <li>Equipment & Payload requirements</li>
+              <li>Ambient conditions</li>
+            </ul>
+          </li>
+          <li>
+            DATA ACQUISITION SUMMARY
+            <ul>
+              <li>Plant info</li>
+              <li>Equipment type</li>
+              <li>Acquisition details</li>
+              <li>Data quality checks</li>
+            </ul>
+          </li>
+          <li>
+            RESULTS & INFERENCES
+            <ul>
+                <li>Quick Summary</li>
+                <li>Types of Defects Identified in this plant & corresponding Images</li>
                 <li>Module Numbering Nomenclature</li>
                 <li>Defect Description & Recommended Action for Each Defect Type</li>
                 <li>CONCLUDING REMARKS</li>
-                <li>APPENDIX</li>
+                
             </ul>
-        </section>
-        <footer>
-            <div class="footer-content">
-                <div class="footer-left">DATASEE.AI Inc.</div>
-                <div class="footer-right">
-                    <h1 class="footer-text">ACQUIRE | DECIPHER | DELIVER</h1>
-                    <h2 class="footer-text">Page 2 of 11</h2>
-                </div>
-            </div>
-        </footer>
-</body>
-
+          </li>
+          <li>APPENDIX</li>
+        <ul/>
+      </section>
+      <span style="position:absolute;bottom:10px;right:10px;font-weight: 700;">ACQUIRE | DECIPHER | DELIVER </span>
+    <span style="position:absolute;bottom:10px;left:10px;font-weight: 700;">DATASEE.AI.Inc </span>
+    </div>
+  </body>
 </html>

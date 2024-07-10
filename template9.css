@@ -8,8 +8,7 @@ body {
 }
 
 .container {
-    width: 80%;
-    margin: 20px auto;
+    margin: 7px;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -56,15 +55,14 @@ header {
     font-weight: normal;
 }
 table {
-    width: 80%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
 th, td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+    border: 1px solid darkblue;
+    text-align: center;
+    padding: 2px;
 }
 
 th.skyblue, td.skyblue {
@@ -81,32 +79,4 @@ th {
 }
 .table-container {
     text-align: left; 
-}
-footer {
-    padding: 10px 20px;
-    text-align: center;
-    width: 100%;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-left {
-    font-size: 16px;
-    color: #333;
-    font-weight: bold;
-}
-
-.footer-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.footer-text {
-    font-size: 16px;
-    color: #333;
 }
