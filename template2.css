@@ -5,7 +5,6 @@ body {
 }
 
 .container {
-    width: 80%;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
@@ -45,18 +44,19 @@ header {
 }
 
 .report-title h1 {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 .report-title h2 {
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .index-section {
     text-align: center;
     margin-bottom: 30px;
+    margin-top:50px;
 }
 
 .index-list {
@@ -68,6 +68,7 @@ header {
 
 .index-list li {
     margin-bottom: 10px;
+    list-style: none;
 }
 
 .index-list ul {

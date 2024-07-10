@@ -8,8 +8,7 @@ body {
 }
 
 .container {
-    width: 80%;
-    margin: 20px auto;
+    margin: 7px ;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -47,14 +46,15 @@ header {
 }
 
 .report-title h1 {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 .report-title h2 {
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 12px;
+    font-weight: 500;
 }
+
 h1 {
     text-align: right;
     margin-bottom: 20px;
@@ -75,7 +75,6 @@ th, td {
     border: 1px solid #000;
     padding: 10px;
     text-align: center;
-    font-weight: bold;
     line-height: 1.5;
 }
 
@@ -86,34 +85,5 @@ th {
 img {
     max-width: 100px;
     height: auto;
-}
-footer {
-    padding: 10px 20px;
-    text-align: center;
-    width: 100%;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-left {
-    font-size: 16px;
-    color: #333;
-    font-weight: bold;
-    margin-left: 140px;
-}
-
-.footer-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 120px;
-}
-
-.footer-text {
-    font-size: 16px;
-    color: #333;
+    padding:11px;
 }
